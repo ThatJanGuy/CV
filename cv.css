@@ -1,0 +1,122 @@
+html{
+    height: 100%;
+} 
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+}
+
+#page{
+    display: none;
+    width: 100vw;
+    height: 95vh;
+    flex-direction: column;
+    max-width: 1080px;
+    margin: auto;
+}
+
+#prePage{
+    justify-content: center;
+    align-items: center;
+    margin: 20vh auto 20vh auto;
+    height: 50vh;
+    width: 90vw;
+    background-color: rgba(228, 38, 38, 0.253);
+}
+
+#header{
+    align-items: center;
+    height: 25vh;
+    min-height: 10rem;
+    max-height: 250px;
+    display: flex;
+    background-color: rgb(252, 222, 192);
+}
+
+#picture{
+    width: fit-content;
+    height: 90%;
+    max-height: em;
+    margin: .5em;
+    display: flex;
+    align-self: top;
+}
+
+#personalInfo{
+    padding-left: 1em;
+    border-left: 1px solid black;
+}
+
+#personalInfo p{
+    margin: 1em 0 1em 0;
+    font-size: 1.2rem;
+}
+
+#headerPortrait{
+    height: auto;
+    width: auto;
+}
+
+#kickoff{
+    background-color: #57b9be;
+    border: 1rem solid rgb(235, 208, 228);
+    color: black;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#sendoffButtonDiv{
+    align-items: center;
+    width: 90vw;
+    background-color: red;
+}
+
+#sendoff{
+    display: flex;
+    margin:3em auto 0 auto;
+    background-color: #57b9be;
+    border: 1rem solid rgb(235, 208, 228);
+    color: black;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.visibleAtStart{
+    display: flex;
+}
+
+.invisibleAtStart{
+    display: none;
+}
+
+.entry .head{
+    margin: .5rem 0 0 .5em;
+    display:flex;
+    flex-direction: row;
+    font-size: 1.3rem;
+}
+
+.entry .head .where{
+    font-weight: bolder;
+}
+
+.entry .head .when{
+    margin: 0 10vw 0 auto;
+}
+
+.entry .what{
+    margin: 0 12vw 0 1rem;
+}
+
+.name{
+    font-size: 3rem;
+    font-weight: 600;
+}

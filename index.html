@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cv.css">
+</head>
+<body>
+    <div id="prePage" class="visibleAtStart">
+        <button id="kickoff" class="visibleAtStart" onclick=showCV();>Button?<br>-<br>Yes</button>
+    </div>
+
+    <div id="page" class="invisibleAtStart">
+        <div id="header">
+            <div id="picture"><img id="headerPortrait" src="images/portrait_small_round.png" alt="Portrait"></div>
+            <div id="personalInfo">
+                <p id="address"><span class="name">Jan Schulze</span><br>
+                My Street 123<br>
+                123 45 myTown
+
+                </p>
+            </div>
+        </div>
+        <div class="entry">
+            <div class="head">
+                <div class="where">Some University</div>
+                <div class="when">2008-2012</div>
+            </div>
+            <div class="what">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quia rem blanditiis sit, accusamus, magnam possimus neque dolorem soluta quidem dolor nisi libero, provident reiciendis!</div>
+        </div>
+        <div class="entry">
+            <div class="head">
+                <div class="where">Some Company</div>
+                <div class="when">2012-2019</div>
+            </div>
+            <div class="what">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quia rem blanditiis sit, accusamus, magnam possimus neque dolorem soluta quidem dolor nisi libero, provident reiciendis!</div>
+        </div>
+        <div class="entry">
+            <div class="head">
+                <div class="where">Some Project</div>
+                <div class="when">2020-9999</div>
+            </div>
+            <div class="what">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quia rem blanditiis sit, accusamus, magnam possimus neque dolorem soluta quidem dolor nisi libero, provident reiciendis!</div>
+        </div>
+        
+        <div id="#sendoffButtonDiv">
+            <a href="https://www.linkedin.com/in/jschulze-mlm/" target="_self"><button id="sendoff">Click here for the whole CV</button></a>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="cv.js"></script>
+</body>
+</html>
